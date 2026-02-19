@@ -9,7 +9,7 @@ document.getElementById('login-btn').addEventListener('click', function () {
 
     if (number === '01300666763' && pin === '1234') {
         alert('login seccesfull')
-        window.location.assign('/home.html')
+        window.location.assign('home.html')
     } else {
         alert('login failed')
         return;
